@@ -1,0 +1,52 @@
+const menuEntries = [
+    {
+        text:"Catalogue Vinyl",
+        url:"{{ path('app_vinyl_index')}}",
+        icon:["fa-solid","fa-compact-disc"],
+        subMenu:null
+    },
+    {
+        text:"Btn2",
+        url:"",
+        icon:["classIcone"],
+        subMenu:null
+    },
+    {
+        text:"Btn3",
+        url:null,
+        icon:["classIcone"],
+        subMenu:[
+            {
+                text:"Item1",
+                url:"",
+                icon:["classIcone"],
+                subMenu:null
+            },
+            {
+                text:"Item2",
+                url:"",
+                icon:null,
+                subMenu:null
+            },
+            {
+                text:"Item3",
+                url:"",
+                icon:["classIcone"],
+                subMenu:null
+            },
+            {
+                text:"Item4",
+                url:"",
+                icon:["classIcone"],
+                subMenu:null
+            },
+            {
+                text:"Item5",
+                url:"",
+                icon:["classIcone"],
+                subMenu:null
+            }
+        ]
+    },
+]
+export { menuEntries }
